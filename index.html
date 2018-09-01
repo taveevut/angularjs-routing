@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Angular JS - Routing</title>
+  <script src="assets/angular-1.6.3/angular.min.js"></script>
+  <script src="assets/angular-1.6.3/angular-route.min.js"></script>
+
+</head>
+
+<body ng-controller="myAppController">
+  <h1>Angular JS - Routing</h1>
+  <a href="#!page1">Page 1</a>
+  <a href="#!page2/1">Page 2</a>
+  <a href="#!page3">Page 3</a>
+
+  <div ng-view></div>
+
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/app.page.controller.js"></script>
+</body>
+
+</html>
